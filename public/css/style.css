@@ -1,0 +1,237 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #3498db;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container,
+.signup-container,
+.notification-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+}
+
+.forgot-password {
+    float: right;
+    font-size: 0.85em;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.remember-me label {
+    margin: 0;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.or-divider {
+    margin: 30px 0;
+    font-size: 0.9em;
+    color: #999;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #333;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+}
+
+.google-login img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+.subscribe-section {
+    margin-bottom: 30px;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.subscribe-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe-section button:hover {
+    background-color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-info,
+.footer-links,
+.footer-branding {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-info p,
+.footer-links p,
+.footer-branding p {
+    margin: 10px 0;
+}
+
+.footer-info a,
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info a:hover,
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-branding .footer-logo {
+    font-size: 1.5em;
+    color: #3498db;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-social a:hover img {
+    opacity: 0.7;
+}
